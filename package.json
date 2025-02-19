@@ -1,15 +1,14 @@
-
 {
-  "homepage": "https://christinekerres.github.io/vive-la-fro-once",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
   "name": "my-review-app",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://christinekerres.github.io/vive-la-fro-once", 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",            
+    "deploy": "gh-pages -d dist"            
   },
   "dependencies": {
     "react": "^19.0.0",

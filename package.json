@@ -1,11 +1,8 @@
 
-"homepage": "https://christinekerres.github.io/vive-la-fro-once",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
-
 {
+  "homepage": "https://christinekerres.github.io/vive-la-fro-once",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "name": "my-review-app",
   "version": "1.0.0",
   "main": "index.js",
